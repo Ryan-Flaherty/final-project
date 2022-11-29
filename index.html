@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Three Star Media</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -55,30 +58,121 @@
 
         <section class="section-about">
             <div class="conatainer">
+                <img src="images/about-us.jpg" alt="about us">
+                <h2>About Us</h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nihil ipsum sed amet tempore possimus ratione hic doloremque quibusdam culpa! Iste cum et dolorum aspernatur iure nemo incidunt dicta quod.</p>
                 <!-- img on left, h2 and p on right using flexbox -->
             </div> <!-- end conatainer -->
         </section> <!-- end section-about -->
 
         <section class="section-services">
-            <div class="conatainer">
+          <div class="conatainer">
+                <h2>Our Services</h2>
+            <div class="digital">
+                <img src="images/digital.jpg" alt="Digital Transformation">
+                <h3>Digital Transformation</h3>
+                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est vel doloremque ad earum doloribus inventore, maiores ipsam ratione beatae numquam iure accusamus veniam! Corporis, repellendus voluptate. Culpa quod voluptas quibusdam!</p>
+                <button> Digital Plans </button>
+            </div>
+            <div class="marketing">
+                <img src="images/marketing.jpg" alt="Marketing">
+                <h3>Marketing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint impedit ullam et exercitationem id, suscipit distinctio magnam veritatis eligendi dolore similique nulla quaerat numquam voluptatibus, nihil omnis, dicta doloremque consequatur.</p>
+                <button>Marketing Plans</button>
+            </div>
+            <div class="video">
+                <img src="images/video.jpg" alt="Video Production">
+                <h3>Video Production</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur a atque quod reprehenderit accusantium illum praesentium eius quae delectus sequi, officiis labore incidunt commodi repudiandae architecto saepe tempora molestias quo.</p>
+                <button>Video Plans</button>
+            </div>
+            <div class="web">
+                <img src="images/web.jpg" alt="Web Development">
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit veritatis non quaerat blanditiis, at iure quisquam neque, ab tempore laudantium error eligendi in praesentium aliquid ipsam tenetur nihil rem aperiam!</p>
+                <button>Web Plans</button>
+            </div>
+            <div class="print">
+                <img src="images/print.jpg" alt="Print">
+                <h3>Print</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quod quas magni numquam quaerat adipisci cumque, laudantium reprehenderit laboriosam quia obcaecati consequuntur ipsum ex, tenetur itaque rerum, vero asperiores id?</p>
+                <button>Print Plans</button>
+            </div>
                 <!-- h2, 5div's each with h3, image, text and button on a grid  -->
             </div> <!-- end conatainer -->
         </section> <!-- end section-services -->
 
         <section class="section-vision">
             <div class="conatainer">
+                <h3>Our Vision</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor minima repudiandae doloremque quasi magni optio ex sint aspernatur architecto nemo, perspiciatis aperiam vero quod laborum neque nobis voluptatum? Facilis, laudantium!</p>
+                <button>Learn More</button>
                 <!-- h3, p, button with class name -->
             </div> <!-- end conatainer -->
         </section> <!-- end section-vision -->
 
         <section class="section-team">
             <div class="conatainer">
+                <h2>Our Team</h2>
+                <div class="john">
+                    <img src="images/john.jpg" alt="John">
+                </div>
+                <div class="john-bio">
+                    <h3>John Doe</h3>
+                    <h4>CEO and Co-owner</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore aliquam repellat perferendis sunt neque iste esse, voluptatem provident id doloremque consequuntur asperiores, ut repellendus laboriosam eum quos dicta magni distinctio.</p>
+                </div>
+                <div class="Bob">
+                    <img src="images/bob.jpg" alt="Bob">
+                </div>
+                <div class="bob-bio">
+                    <h3>Bob Rite</h3>
+                    <h4>CFO and Co-owner</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt eaque quo tenetur assumenda sit, voluptatum quaerat fugit aliquid quisquam exercitationem vitae reprehenderit accusantium ea impedit labore hic, ab ratione illum.</p>
+                </div>
                 <!-- h2, 2divs with images and 2 divs with h3, h4 and p on a grid -->
             </div> <!-- end conatainer -->
         </section> <!-- end section-team -->
 
         <section class="section-contact">
             <div class="conatainer">
+                <h2>Contact Us</h2>
+                <h3>Send us a message</h3>
+                <div class="form">
+                    <form action="/action_page.php">
+                     <label for="fullname">Full Name</label><br>
+                     <input type="text" id="fullname" name="fullname" value=""><br>
+                     <br>
+                     <label for="email">Email</label><br>
+                     <input type="text" id="email" name="email" value=""><br>
+                     <br>
+                     <label for="textarea">Message</label><br>
+                     <textarea id="textarea" name="textarea" rows="8" cols="60"></textarea><br> <!-- will make not move un css with (textarea{ resize: none; })-->
+                     <br>
+                     <input type="submit" value="Send">
+                    </form>
+                </div>
+                <h3>Location</h3>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1401.9974799307486!2d-75.75744584980387!3d45.348914007944096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1669740218510!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="table">
+                    <h3>Hours of operation</h3>
+                    <table>
+                          <tr>
+                            <th>Days</th>
+                            <th>Hours</th>
+                          </tr>
+                          <tr>
+                            <td>Monday - Friday</td>
+                            <td>Saturday - Sunday</td>
+                          </tr>
+                          <tr>
+                            <td>9 Am - 6 PM</td>
+                            <td>Closed</td>
+                          </tr>
+                    </table>
+                </div>
                 <!-- h2, form, google maps embed, table on a grid -->
             </div> <!-- end conatainer -->
         </section> <!-- end section-contact -->
@@ -87,6 +181,10 @@
 
     <footer>
         <div class="container">
+            <div class="footer-text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad explicabo reiciendis earum cum consectetur deleniti voluptatibus vitae magnam quo eos, ab, at repellendus ipsum. Itaque ullam sit laborum aut nobis.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptas cumque ea! Est eveniet nihil totam, illo facere omnis labore cum explicabo, alias inventore corrupti cumque! Maiores hic debitis ab.</p>
+            </div>
             <!-- two paragraph of text -->
         </div>
     </footer>
