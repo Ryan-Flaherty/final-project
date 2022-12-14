@@ -1,0 +1,391 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+my styles
+*/
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+.container {
+ margin: 0 auto;
+ width: 1160px;
+}
+
+nav {
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+}
+a {
+  text-decoration: none;
+  color: #c78c06;
+}
+.homelink{
+	color: #222;
+}
+li{
+	text-align: center;
+	font-size: 22px;
+	margin: 0px 20px;
+	padding: 30px;
+}
+li:nth-child(1) {
+	background-color: #c78c06;
+	padding: 30px;
+}
+h1{
+	font-size: 72px;
+	color: white;
+	margin: 0px 20px;
+	font-weight: bold;
+}
+.search-bar{
+	text-align: center;
+	display: flex;
+}
+.search-bar input{
+	flex-grow: 1;
+	height: 38px;
+	padding: 0px 5px;
+}
+.search-bar button{
+	background-color: #222;
+	color: #c78c06;
+	width: 40px;
+	height: 40px;
+	border: #c78c06 1px solid;
+}
+.header-welcome{
+	background-image: url('images/about-us.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.logo{
+	margin: 20px 20px 0px 20px;
+	background-color: #c78c06;
+}
+.logo-home{
+	background-color: #c78c06;
+	margin: 20px 20px 0px 20px;
+}
+.header-bc{ /* bc stands for backround color */
+	background-color: #222;
+	margin: 0 auto;
+	width: 730px;
+}
+.header-welcome p{
+	color:white;
+	margin: 0px 20px;
+}
+.header-welcome button{
+	margin: 0px 20px;
+	padding: 40px;
+	background-color: #c78c06;
+	font-size: 32px;
+}
+.section-services{
+	width: 1160px;
+	background-color: white;
+	margin: 0 auto;
+}
+.section-about{
+	width: 730px;
+	background-color: #ffe6ac;
+	margin: 0 auto;
+}
+.about-us{
+	margin: 20px;
+	width: 96%;
+}
+.section-about h2{
+	margin: 0px 20px;
+	font-size: 62px;
+	font-weight: bold;
+}
+.services-img{
+	width: 100%;
+}
+.section-services h3, p, button{
+	margin: 30px 20px 0px 20px;
+}
+.section-services h3{
+	font-size: 52px;
+	font-weight: bold;
+}
+.digital, .marketing, .video, .web, .print{
+	background-color: #ffe6ac;
+	margin: 20px 0px;
+}
+h2{
+	font-size: 62px;
+	font-weight: bold;
+}
+.section-services button{
+	background-color: #222;
+	color: white;
+	padding: 30px;
+	font-size: 26px;
+	margin-bottom: 20px;
+}
+p{
+	font-size: 22px;
+}
+.p-about{
+	padding-bottom: 30px;
+}
+.section-vision{
+	background-image: url('images/vision.jpg');
+	width: 1200px;
+	margin: 0 auto;
+}
+.section-vision h3{
+	margin: 0px 20px;
+	font-size: 52px;
+	font-weight: bold;
+}
+.section-vision button{
+	background-color: #222;
+	color: white;
+	padding: 30px;
+	font-size: 26px;
+	margin-bottom: 20px;
+}
+.section-team{
+	width: 1160px;
+	margin: 0 auto;
+}
+.section-team img{
+	width: 97%;
+	margin: 0px 20px;
+}
+.section-team h2{
+	font-size: 62px;
+	font-weight: bold;
+	margin: 0px 20px;
+}
+.section-team h3, p{
+	margin: 0px 20px;
+}
+.section-team .john-bio{
+	background-color: #ffe6ac;
+	margin: 0px auto;
+	margin-left: 20px;
+}
+.section-team h3{
+	font-size: 52px;
+	font-weight: bold;
+	margin: 0px 20px;
+	padding: 30px 0px 10px 0px;
+}
+.section-team h4{
+	font-size: 22px;
+	font-weight: bold;
+	border-bottom: #c78c06;
+	margin: 0px 20px;
+	border-style: solid;
+}
+.section-team p{
+	font-size: 18px;
+	margin: 0px 20px;
+	padding: 20px 0px;
+}
+.section-team .bob-bio{
+	background-color: #ffe6ac;
+	margin: 0px auto;
+	margin-left: 20px;
+}
+.section-contact{
+	width: 1160px;
+	margin: 0 auto;
+}
+.section-contact h2{
+	margin: 0px 20px;
+	padding: 80px 0px 40px 0px;
+	font-size: 62px;
+}
+.section-contact h3{
+	margin: 0px 20px;
+	font-size: 52px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+.section-contact .form{
+	margin: 0px 20px;
+}
+.section-contact .input{
+	width: 100%;
+	height: 30px;
+	margin: 10px 0px;
+}
+.section-contact textarea{
+	width: 100%;
+	margin: 10px 0px;
+}
+.section-contact .send{
+	color: #c78c06;
+	background-color: #222;
+	font-size: 22px;
+	margin: 0px 0px 20px 0px;
+}
+.section-contact label{
+	font-size: 18px;
+}
+iframe{
+	width: 100%;
+	height: 400px;
+}
+footer{
+	width: 730px;
+	color: #c78c06;
+	background-color: #222;
+	margin: 0px auto;
+}
+.unsplash{
+	text-decoration: underline;
+}
+table{
+	width: 100%;
+}
+tr, th, td{
+	border: 1px solid black;
+	font-size: 18px;
+	padding: 20px 10px;
+	margin-left: 20px;
+}
+th{
+	background-color: #ffe6ac;
+}
+/* end of mobile CSS
+tablet starts here*/
+@media screen and (min-width: 760px) {
+	.container{
+		width: 706px;
+		margin: 0 auto;
+	}
+}
+/* desktop starts here*/
+@media screen and (min-width: 1200px) {
+	.container{
+		width: 1168px;
+		padding: 0 16px;
+		margin: 0 auto;
+	}
+
+	nav{
+		display: flex;
+		flex-direction: row;
+	}
+	.section-services{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+		grid-template-areas: 
+		"a a a b b b"
+		"a a a b b b"
+		"a a a b b b"
+		"c c d d e e"
+		"c c d d e e"
+		;
+	}
+	.section-services div:nth-child(1){
+		grid-area: a;
+	}
+	.section-services div:nth-child(2){
+		grid-area: b;
+	}
+	.section-services div:nth-child(3){
+		grid-area: c;
+	}
+	.section-services div:nth-child(4){
+		grid-area: d;
+	}
+	.section-services div:nth-child(5){
+		grid-area: e;
+	}
+}
+.section-team{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-template-areas:
+	"a b"
+	"d c"
+	;
+}
+.section-team .john:nth-child(1){
+	grid-area: a;
+}
+.section-team .john-bio:nth-child(2){
+	grid-area: b;
+}
+.section-team .bob:nth-child(3){
+	grid-area: c;
+}
+.section-team .bob-bio:nth-child(4){
+	grid-area: d;
+}
